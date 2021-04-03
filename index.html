@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normallize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Bùi Chí Bảo</title>
+    <style> body  {opacity:0;}</style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="heading">
+            <img src="./PXL_20210313_032551465.PORTRAIT.jpg" alt="">
+            <div class="basicInfo">
+                <h1>Bùi Chí Bảo</h1>
+                <p>10/11/2000</p>
+                <h3>Thực tập sinh lập trình Web</h3>
+                <p>Đại học Điện Lực</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="head">
+                <a class="stack" href="#info" onclick="openCity(event, 'London')">
+                    Giới thiệu
+                </a>
+                <a class="stack" href="#contact">
+                    Thông tin liên hệ
+                </a>
+                <a class="stack " href="#skill">
+                    Kỹ năng
+                </a>
+                <a class="stack" href="#education">
+                    Học vấn
+                </a>
+                <a class="stack" href="#experience">
+                    Kinh nghiệm làm việc
+                </a>
+                <a class="stack" href="#activity">
+                    Hoạt động khác
+                </a>
+                <a class="stack" href="#hobby">
+                    Sở thích
+                </a>
+            </div>
+            <div class="info">
+                <div class="description" id="info">
+                    <h2>Giới thiệu</h2>
+                    <p>Tên tôi là : Bùi Chí Bảo. Hiện đang là sinh viên năm 3 chuyên nghành Hệ thống thương mại điện tử khoa Công Nghệ thông tin của <a href="https://cntt.epu.edu.vn/">Đại học Điện lực</a>
+                        <br>Về bản thân , tôi là một người hòa đồng, có tinh thần trách nhiệm cao, khả năng làm việc độc lập và ham học hỏi. 
+                        <br>Về kiến thức chuyên ngành của tôi , tôi có khả năng sử dụng các ngôn ngữ C++ , C# , Javascript, Python ở mức độ cơ bản , có kỹ năng phân tích yêu cầu người dùng và thiết kế hệ thống, có kiến thức sơ đẳng về học máy
+                        <br>Tuy chưa có kinh nghiệm , nhưng tôi sẽ cố gắng học hỏi nhanh những gì cần thiết để có thể đáp ứng được yêu cầu công việc của mình.
+                    </p>
+                </div>
+                <div class="description" id="contact">
+                    <h2>Thông tin liên hệ </h2>
+                    <div class="item">
+                        <label for="phoneNumber">Số điện thoại : </label>
+                        <a href="tel:0335670934" id="phoneNumber"><i class="fas fa-phone-square"></i>0335670934
+                            
+                        </a>
+                        
+                    </div>
+                    <div class="item">
+                        <label for="">GitHub : </label>
+                        <a href="https://github.com/zeohera"><i class="fab fa-github-square"></i>Zeohera
+                            
+                        </a>
+                    </div>
+                    <div class="item">
+                        <label for="">Mail : </label>
+                        <a href="mailto:buichibao1011@gmail.com">buichibao1011@gmail.com</a>
+                    </div>
+                    <div class="item">
+                        <label for="">Địa chỉ : </label>
+                        <p>234 Hoàng Quốc Việt , Bắc Từ Liêm , Hà Nội</p>
+                    </div>
+                </div>
+                <div class="description skill" id="skill">
+                    <h2>Kỹ Năng</h2>
+                    <ul>
+
+                        <li>
+                            <p>BackEnd</p>
+                            <ul>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-4">
+                                            <p>NodeJS(expressJS)</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-1">
+                                            <p>ASP.Net</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-05">
+                                            <p>PHP</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <p>Cơ sở dữ liệu </p>
+                            <ul>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-25">
+                                            <p>SQL(mssql)</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-3">
+                                            <p>noSQL(mongodb)</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>FrontEnd</p>
+                            <ul>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-4">
+                                            <p>SCSS, flex, responsive, Bootstrap</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-0">
+                                            <p>ReactJS</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-05">
+                                            <p>Vue</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Kỹ năng khác</p>
+                            <ul>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-3">
+                                            <p>Tin học văn phòng</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bar">                                        
+                                        <div class="value-3">
+                                            <p>Tiếng Anh(Đọc hiểu)</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="description" id="education">
+                    <h2>Học Vấn</h2>
+                    <h3>Đại học Điện Lực (8/2018 - 1/2023)  </h3>
+                    <p>Chuyên ngành : Hệ thống thương mại điện tử</p>
+                    <p>Hiện đang là sinh viên năm 3, Điểm trung bình tích lũy hệ 4 hiện tại : 3.45</p>
+                </div>
+                <div class="description" id="experience">
+                    <h2>Kinh nghiệm làm việc</h2>
+                    <p>Chưa có kinh nghiệm làm việc thực tế</p>
+                </div>
+                <div class="description" id="experience">
+                    <h2>Hoạt động khác</h2>
+                    <p>Tham gia nghiên cứu học tập về thuật toán học máy tại trường cùng các thầy cô (cuối 2019 - giữa 2020) tìm cách cải thiện độ chính xác khi dự đoán bạn bè trên các mạng xã hội </p>
+                </div>
+                <div class="description" id="hobby">
+                    <h2>Sở thích</h2>
+                    <p>Nghe nhạc , xem phim  , tìm hiểu công nghệ nói chung </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            // tabcontent = document.getElementsByClassName("description");
+            // for (i = 0; i < tabcontent.length; i++) {
+            //     tabcontent[i].style.display = "none";
+            // }
+            tablinks = document.getElementsByClassName("stack");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace("selected", "");
+            }
+            document.getElementById(cityName).style.display = "flex";
+            evt.currentTarget.className += " selected";
+            }
+    </script>
+</body>
+</html>

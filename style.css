@@ -1,0 +1,289 @@
+body {
+  position: relative;
+  width: 100vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #2b3539;
+  display: -ms-grid;
+  display: grid;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body .bg {
+  background-image: url("./steve-douglas-V2-lXJlcPbw-unsplash.jpg");
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: -10;
+  position: absolute;
+}
+
+body .container {
+  -webkit-box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+          box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  z-index: 1;
+  top: 0px;
+  border: 1px solid lightgray;
+  margin: 50px;
+  overflow: hidden;
+  max-width: 1200px;
+  min-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  background-color: rgba(224, 225, 251, 0.5);
+  border-radius: 30px;
+}
+
+body .container .heading {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container .heading img {
+  max-height: 210px;
+  display: block;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+body .container .heading .basicInfo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .container .heading .basicInfo h1 {
+  width: 100%;
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+}
+
+body .container .heading .basicInfo p, body .container .heading .basicInfo h3 {
+  width: 100%;
+  font-weight: normal;
+  text-align: center;
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+}
+
+body .container .heading .basicInfo h3 {
+  font-weight: bold;
+}
+
+body .container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .content .head {
+  margin-bottom: 50px;
+}
+
+body .container .content .head a.stack {
+  -webkit-backdrop-filter: blur(60px);
+          backdrop-filter: blur(60px);
+  display: block;
+  text-decoration: none;
+  color: #171d1f;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  line-height: 50px;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 40px;
+}
+
+body .container .content .head a.stack:first-child {
+  border-radius: 0 10px 0 0;
+  border: 1px solid lightgray;
+}
+
+body .container .content .head a.stack:last-child {
+  border-radius: 0 0 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+body .container .content .head a.selected {
+  background-color: rgba(224, 225, 251, 0.5);
+}
+
+body .container .content .info {
+  max-height: 1000px;
+  border-radius: 10px;
+  overflow: scroll;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 30px;
+  padding: 5px;
+  -webkit-backdrop-filter: blur(60px);
+          backdrop-filter: blur(60px);
+  background-color: rgba(224, 225, 251, 0.1);
+  margin-bottom: 30px;
+  border: 1px solid white;
+}
+
+body .container .content .info::-webkit-scrollbar {
+  display: none;
+}
+
+body .container .content .info .description {
+  background-color: rgba(223, 223, 223, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+body .container .content .info .description a {
+  text-decoration: none;
+}
+
+body .container .content .info .description a:visited {
+  color: darkblue;
+}
+
+body .container .content .info .description h2 {
+  background: white;
+  background: -webkit-gradient(linear, left top, right top, color-stop(4%, white), color-stop(27%, white), color-stop(53%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, white 4%, white 27%, rgba(255, 255, 255, 0) 53%);
+  display: block;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+body .container .content .info .description p, body .container .content .info .description h3 {
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+body .container .content .info .description .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .content .info .description .item label {
+  padding-left: 20px;
+  line-height: 30px;
+  min-width: 150px;
+}
+
+body .container .content .info .description .item p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+body .container .content .info .description .item a {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #1b1b1b;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+body .container .content .info .description .item a i {
+  margin-right: 10px;
+}
+
+body .container .content .info .description .item a i.fa-phone-square {
+  color: #6cd305;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body .container .content .info .skill .bar {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #e0e1fb;
+}
+
+body .container .content .info .skill .bar .value-5 {
+  height: 100%;
+  width: 100%;
+  background-color: #8d90fb;
+  border-radius: 10px;
+}
+
+body .container .content .info .skill .bar .value-4 {
+  height: 100%;
+  width: 80%;
+  background-color: #8d90fb;
+  border-radius: 10px;
+}
+
+body .container .content .info .skill .bar .value-3 {
+  height: 100%;
+  width: 66%;
+  background-color: #8d90fb;
+  border-radius: 10px;
+}
+
+body .container .content .info .skill .bar .value-25 {
+  height: 100%;
+  width: 50%;
+  background-color: #8d90fb;
+  border-radius: 10px;
+}
+
+body .container .content .info .skill .bar .value-2 {
+  height: 100%;
+  width: 40%;
+  background-color: #8d90fb;
+  border-radius: 10px;
+}
+
+body .container .content .info .skill .bar .value-1 {
+  height: 100%;
+  width: 20%;
+  background-color: #8d90fb;
+  border-radius: 10px;
+}
+
+body .container .content .info .skill .bar .value-05 {
+  height: 100%;
+  width: 10%;
+  background-color: #8d90fb;
+  border-radius: 10px;
+}
+
+body .container .content .info .skill .bar .value-75 {
+  height: 100%;
+  width: 75%;
+  background-color: #8d90fb;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
